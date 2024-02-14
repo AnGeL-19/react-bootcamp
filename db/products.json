@@ -1,0 +1,50 @@
+{
+    "companies": [
+        {
+            "id": 1,
+            "name": "PlayStation"
+        },
+        {
+            "id": 2,
+            "name": "Xbox"
+        },
+        {
+            "id": 3,
+            "name": "Nintendo"
+        },
+        {
+            "id": 4,
+            "name": "Steam"
+        }
+    ],
+    "Products": [
+        {
+            "id": 1,
+            "name": "Zelda ocarina of time",
+            "price": 1000,
+            "company_id": 3,
+            "inStock": true
+        },
+        {
+            "id": 2,
+            "name": "Unchartered",
+            "price": 1500,
+            "company_id": 1,
+            "inStock": true
+        },
+        {
+            "id": 3,
+            "name": "Halo",
+            "price": 1200,
+            "company_id": 2,
+            "inStock": true
+        },
+        {
+            "id": 4,
+            "name": "God of war",
+            "price": 800,
+            "company_id": 4,
+            "inStock": true
+        }
+    ]
+}
