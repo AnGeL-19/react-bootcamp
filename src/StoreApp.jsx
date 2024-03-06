@@ -1,6 +1,9 @@
 
 import { ProductList } from "./components/products/ProductList";
+import { Error } from "./components/ui/Error";
+import { Loading } from "./components/ui/Loading";
 import { useProducts } from "./hooks/useProducts";
+
 
 
 export const StoreApp = () => {
@@ -10,9 +13,9 @@ export const StoreApp = () => {
 
   console.log(products);
 
-  if (products.isFetching) return <span>Loading</span> 
+  if (products.isFetching) return <Loading/>
 
-  if (products.error) return <span>Error {products.error.message}</span> 
+  if (products.error) return <Error/>
 
   return (
     <>
